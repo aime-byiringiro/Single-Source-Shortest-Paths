@@ -19,6 +19,8 @@ source vertex s ∊ V to every vertex u ∊ V.
 5. What is the triangle inequality? What does the term “relaxing an edge” mean with respect
 to finding the shortest path.
 - Let G = (V,E) be a weighted, directed graph with weight function w: E --> R and source vertex s. Then, all edges (u,v) ∊ E, &(s,v) ≤ &(s,v) + w(u,v)
+-  [Video](https://www.youtube.com/watch?v=fqcSpN9sLTo)
+- 
 
    
 
