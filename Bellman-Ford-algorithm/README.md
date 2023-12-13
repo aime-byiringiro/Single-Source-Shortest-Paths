@@ -18,3 +18,4 @@
           2.    v.d = ∞
           3.    v.∏ = NIL
           4. s.d = 0
+# Running time O(V^2 + VE)

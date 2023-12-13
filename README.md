@@ -21,7 +21,11 @@ to finding the shortest path.
 - Let G = (V,E) be a weighted, directed graph with weight function w: E --> R and source vertex s. Then, all edges (u,v) ∊ E, &(s,v) ≤ &(s,v) + w(u,v)
 -  [Video](https://www.youtube.com/watch?v=fqcSpN9sLTo)
 6. Know and understand the Bellman-Ford algorithm. Complexity?
-   - Relax edges n-1 time from the root vertex. 
+   - Relax edges n-1 time from the root vertex.  Look at the director of Bellman-Ford
+7. Be able to trace through an example of the Belman-Ford algorithm similar to the example in
+class and in the textbook. **TBD**
+8. Know and understand Dijkstra’s algorithm. Complexity?
+   - View the Dijjstra's directory. 
 
    
 
