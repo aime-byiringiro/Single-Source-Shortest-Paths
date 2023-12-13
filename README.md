@@ -13,9 +13,9 @@ source vertex s ∊ V to every vertex u ∊ V.
 3. _Know and understand the section in our text on the optimal substructure of a shortest path._
    - Shortest-paths algorithms typically rely on the property that a shortest path between two vetices contains other shortest paths within it.
 4. _can shortest paths contain negative weights? Can shortest paths contain cycles?_
- - Yes, a shortest path can contain negative weights, given with no negative weigt cycles. 
- - If there negative weight cycles, you can not have a shortest path since there will alway be the next shortest path until - ∞
- - Shortes path can not contain cycle since removing the cycle fromt eh path produces a pth with the same source and destination vertices and a lower path weight. 
+   - Yes, a shortest path can contain negative weights, given with no negative weigt cycles. 
+   - If there negative weight cycles, you can not have a shortest path since there will alway be the next shortest path until - ∞
+   - Shortes path can not contain cycle since removing the cycle fromt eh path produces a pth with the same source and destination vertices and a lower path weight. 
          
    
 
