@@ -11,12 +11,15 @@ source vertex s ∊ V to every vertex u ∊ V.
    - Single-pair shortest-path problem: Finding the shortest path vertex v to u.  
    - All pairs shortest-paths problem: Involves determining the shortest paths and distances between every possible pair of vertices in the graph.
 3. _Know and understand the section in our text on the optimal substructure of a shortest path._
-   - Shortest-paths algorithms typically rely on the property that a shortest path between two vetices contains other shortest paths within it.
+   - Shortest-paths algorithms typically rely on the property that a shortest path between two verices contains other shortest paths within it.
 4. _can shortest paths contain negative weights? Can shortest paths contain cycles?_
-   - Yes, a shortest path can contain negative weights, given with no negative weigt cycles. 
-   - If there negative weight cycles, you can not have a shortest path since there will alway be the next shortest path until - ∞
-   - Shortes path can not contain cycle since removing the cycle fromt eh path produces a pth with the same source and destination vertices and a lower path weight. 
-         
+   - Yes, a shortest path can contain negative weights, given with no negative weight cycles. 
+   - If there negative weight cycles, you can not have a shortest path since there will always be the next shortest path until - ∞
+   - Shortest path can not contain cycle since removing the cycle from eh path produces a pth with the same source and destination vertices and a lower path weight. 
+5. What is the triangle inequality? What does the term “relaxing an edge” mean with respect
+to finding the shortest path.
+- Let G = (V,E) be a weighted, directed graph with weight function w: E --> R and source vertex s. Then, all edges (u,v) ∊ E, &(s,v) ≤ &(s,v) + w(u,v)
+
    
 
 
