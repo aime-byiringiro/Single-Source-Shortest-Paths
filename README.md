@@ -20,7 +20,8 @@ source vertex s ∊ V to every vertex u ∊ V.
 to finding the shortest path.
 - Let G = (V,E) be a weighted, directed graph with weight function w: E --> R and source vertex s. Then, all edges (u,v) ∊ E, &(s,v) ≤ &(s,v) + w(u,v)
 -  [Video](https://www.youtube.com/watch?v=fqcSpN9sLTo)
-- 
+6. Know and understand the Bellman-Ford algorithm. Complexity?
+   - Relax edges n-1 time from the root vertex. 
 
    
 
